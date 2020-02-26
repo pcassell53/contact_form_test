@@ -46,7 +46,7 @@
             <div class="col-md-6" data-aos="fade-up">
                 <div id="cassellEmailForm">
                     <h1 class="text-center">Contact Me</h1>
-                    <form class="contact-form" action="contactForm.php" method="POST">
+                    <form class="contact-form" data-netlify="true" method="POST">
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="firstName">First Name</label>
@@ -77,6 +77,9 @@
                         <div class="form-group">
                             <label for="exampleFormControlTextarea1">Message</label>
                             <textarea class="form-control" name="message"></textarea>
+                        </div>
+                        <div class="field">
+                            <div data-netlify-recaptcha="true"></div>
                         </div>
                         <div class="d-flex justify-content-center">
                             <button type="submit" name="submit" class="btn btn-primary">Send</button>
