@@ -35,6 +35,17 @@ hr {
     z-index: -1;
 }
 
+#offsetCircle {
+    background-color: #FFD23F;
+    position: absolute;
+    top: 0px;
+    right: 250px;
+    left: 0px;
+    bottom: 300px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
 #secondOffsetSquare {
     background-color: #FF5964;
     position: absolute;
@@ -103,6 +114,12 @@ hr {
     margin-top: 30px;
     margin-bottom: 50px;
 }
+
+#contactFormRightColumnText {
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+} 
 
 
 .cassellButton {
