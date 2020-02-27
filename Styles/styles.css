@@ -123,12 +123,17 @@ hr {
 
 
 .cassellButton {
-    background-color: #35A7FF;
-    transition: 0.2s;
-    font-size: 18px;
+    background-color: black;
+    transition: 0.4s;
+    font-size: 20px;
     border-radius: 5px;
     padding: 5px 15px;
     color: white;
+}
+
+.cassellButton:hover {
+    background-color: white;
+    color: black;
 }
 
 .cassellEmailCard {
